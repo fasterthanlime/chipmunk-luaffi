@@ -1,0 +1,28 @@
+# ooc stuff
+/.libs
+/.sam-cache
+/rock_tmp
+
+# generated stuff
+/build
+/lua_bindings
+
+# *nix executable
+/chipmunk-luaffi
+
+# Win32 exe
+*.exe
+*.dll
+
+# OSX debug symbols
+*.dSYM
+
+# log stuff
+/app.log
+
+# OSX Finder shit
+.DS_Store
+
+# profiling stuff
+callgrind.out.*
+*.trace

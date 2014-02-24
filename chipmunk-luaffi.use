@@ -1,0 +1,5 @@
+Name: chipmunk-luaffi
+Requires: chipmunk, dye, luaffi
+SourcePath: source
+Main: chipmunk-luaffi
+LuaBindings: lua_bindings
