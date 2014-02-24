@@ -1,5 +1,5 @@
 Name: chipmunk-luaffi
-Requires: chipmunk, dye, luaffi
+Requires: chipmunk, dye, luaffi, deadlogger
 SourcePath: source
 Main: chipmunk-luaffi
 LuaBindings: lua_bindings

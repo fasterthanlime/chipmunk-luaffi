@@ -7,6 +7,9 @@
 /build
 /lua_bindings
 
+# installed stuff
+/luaprefix
+
 # *nix executable
 /chipmunk-luaffi
 
