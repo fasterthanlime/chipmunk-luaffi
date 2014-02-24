@@ -23,6 +23,7 @@ ChipmunkLuaffi: class extends App {
     lua: Binding
 
     init: func {
+        This instance = this
         super("Chipmunk LuaFFI test", 1280, 720)
         dye setClearColor(Color black())
     }
@@ -49,7 +50,9 @@ ChipmunkLuaffi: class extends App {
         //     }
         // }
 
+        "Loading bindings..." println()
         lua = Binding new("./lua_bindings")
+        "Running lua file..." println()
         lua runFile("assets/lua/init.lua")
     }
 
